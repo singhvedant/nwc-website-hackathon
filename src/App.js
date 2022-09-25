@@ -1,11 +1,13 @@
 import './App.css';
 import React from "react";
+import NavBar from './navBar';
+import Hero from './hero';
 
-const Template = require('./components/example_html_render');
 function App() {
   return (
     <div className="App">
-      <Template />
+      <NavBar/>
+      <Hero/>
     </div>
   );
 }
